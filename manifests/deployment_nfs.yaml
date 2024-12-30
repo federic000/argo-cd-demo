@@ -4,7 +4,7 @@ metadata:
     name: argo-app-nfs
     namespace: default
 spec:
-    replicas: 2
+    replicas: 3
     selector:
       matchLabels:
         app: argo-app-nfs
